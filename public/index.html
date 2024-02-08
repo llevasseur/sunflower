@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>TheForestWIL v1.0</title>
+        <style>
+            body{
+                overscroll-behavior: none;
+            }
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            #container{
+                width: 100vw;
+                height: 100vh;
+            }
+            canvas{
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="container"></div>
+        <script type="importmap">
+			{
+				"imports": {
+					"three": "/js/libs/three.module.js"
+				}
+			}
+		</script>
+        <script type="module" src="./js/app2.js"></script>
+    </body>
+</html>
